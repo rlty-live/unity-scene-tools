@@ -16,3 +16,4 @@ jobs:
           source_repo_path: rlty-live/SceneTools
           upstream_branch: main
           source_repo_ssh_private_key: ${{ secrets.SCENETOOLS_REPO_SSH_PRIVATE_KEY }}
+          pr_labels: automerge
